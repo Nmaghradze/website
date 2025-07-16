@@ -1,0 +1,55 @@
+@media (max-width: 767px)   {
+ .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  img#chat img#is {
+    width: 240px;
+
+  }
+  input {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+
+  header ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header a {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+
+.e {
+    display: grid;
+    align-items: center;
+    
+}
+.k {
+  display: grid;
+  align-items: center; 
+}
+
+img#j {
+    justify-self: center;
+    width: 350px;
+}
+
+
+h3 {
+    font-size: 15px;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+
+}

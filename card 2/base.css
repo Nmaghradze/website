@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(196, 217, 242);
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  background-color: rgb(196, 217, 242);
+  width: 1500px;
+}
+
+img#is {
+  width: 200px;
+}
+
+img#chat {
+  width: 200px;
+}
+
+.k {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(85, 185, 239);
+  font-weight: bolder;
+  margin-left: 75px;
+  margin-top: 50px;
+  font-size: larger;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  border-color: rgb(0, 200, 255);
+  border-radius: 40px;
+  margin-top: 15px;
+}
+
+img {
+  width: 350px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+.e {
+  display: flex;
+}
+
+h3 {
+  color: rgb(191, 93, 243);
+  padding-left: 80px;
+  font-size: x-large;
+  font-family: "BPG Irubaqidze", monospace, sans-serif;
+}
+
+.k {
+  display: grid;
+  align-items: center;
+}
+
+.footer {
+  height: 130px;
+  background-color: rgb(97, 175, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.link {
+  color: rgb(201, 216, 234);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
