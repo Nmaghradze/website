@@ -7,9 +7,13 @@ body {
 }
 
 .container {
+  display: -webkit-flex; 
   display: flex;
-  gap: 40px;
+
+  -webkit-justify-content: center;
   justify-content: center;
+
+  gap: 40px;
   background-color: rgb(196, 217, 242);
   width: 1500px;
 }
